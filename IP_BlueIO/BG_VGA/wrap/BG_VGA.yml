@@ -1,0 +1,9 @@
+---
+module_name: "mkTileGraphicCard"
+wrapper_name: "BG_VGA"
+
+clients:
+  bluetile:
+    request_width: 32
+    response_width: 32
+

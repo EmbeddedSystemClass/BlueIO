@@ -1,0 +1,11 @@
+Command line:
+   out.isim
+     -testplusarg  bscvcd
+     -simmode  tcl
+     -simrunnum  0
+     -socket  43803
+
+Sat Oct 29 14:28:09 2016
+
+
+ Elaboration Time: 0.14 sec

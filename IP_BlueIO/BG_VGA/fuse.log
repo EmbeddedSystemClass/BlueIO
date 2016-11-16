@@ -1,0 +1,29 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -v 0 -o ./out.isim -prj /tmp/fuse.prj.Rky2gV -sourcelibdir v -sourcelibdir /opt/bluespec/Bluespec-2012.01.A/lib/Libraries -sourcelibdir /opt/bluespec/Bluespec-2012.01.A/lib/Verilog -sourcelibext .v -d TOP=mkTBTileGraphicCard -L unisims_ver -t worx_mkTBTileGraphicCard.glbl -t worx_mkTBTileGraphicCard.main 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 48
+Turning on mult-threading, number of parallel sub-compilation jobs: 96 
+Determining compilation order of HDL files
+Analyzing Verilog file "/opt/bluespec/Bluespec-2012.01.A/lib/Verilog/main.v" into library worx_mkTBTileGraphicCard
+Analyzing Verilog file "/home/hugo/work/proj_BG/BG_VGA/v/mkTBTileGraphicCard.v" into library worx_mkTBTileGraphicCard
+WARNING:HDLCompiler:687 - "/home/hugo/work/proj_BG/BG_VGA/v/mkTBTileGraphicCard.v" Line 23: Illegal redeclaration of module <mkTBTileGraphicCard>.
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" into library worx_mkTBTileGraphicCard
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96264 KB
+Fuse CPU Usage: 1180 ms
+Compiling module glbl
+Compiling module SizedFIFO(p1width=32'b0100000,p2...
+Compiling module SizedFIFO(p1width=32'b0100000,p2...
+Compiling module SizedFIFO(p1width=32'b0100000,p2...
+Compiling module BRAM2Load(FILENAME="video_memory...
+Compiling module SizedFIFO(p1width=32'b01,p2depth...
+Compiling module mkTileGraphicCard
+Compiling module mkTBTileGraphicCard
+Compiling module main
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable ./out.isim
+Fuse Memory Usage: 205968 KB
+Fuse CPU Usage: 1750 ms
+GCC CPU Usage: 12620 ms

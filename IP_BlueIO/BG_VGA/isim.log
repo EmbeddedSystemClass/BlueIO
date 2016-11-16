@@ -1,0 +1,8 @@
+ISim log file
+Running: ././out.isim -tclbatch ./out.isim.tcl -testplusarg bscvcd 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+WARNING: File video_memory.txt referenced on /opt/bluespec/Bluespec-2012.01.A/lib/Verilog/BRAM2Load.v at line 88 cannot be opened for reading. Please ensure that this file is available in the current working directory.Finished circuit initialization process.

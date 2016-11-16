@@ -1,0 +1,1 @@
+-v "0" -o "./out.isim" -prj "/tmp/fuse.prj.Rky2gV" -sourcelibdir "v" -sourcelibdir "/opt/bluespec/Bluespec-2012.01.A/lib/Libraries" -sourcelibdir "/opt/bluespec/Bluespec-2012.01.A/lib/Verilog" -sourcelibext ".v" -d "TOP=mkTBTileGraphicCard" -L "unisims_ver" -t "worx_mkTBTileGraphicCard.glbl" -t "worx_mkTBTileGraphicCard.main" 
